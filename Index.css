@@ -1,0 +1,146 @@
+body{
+    font-family: poppins;
+}
+
+header{
+    padding-bottom: 25px;
+}
+
+.icono{
+    display: inline-block!important;
+    padding-left: 10px;
+}
+
+.banner{
+    height: auto;
+}
+
+.seccion-actual{
+    font-weight: bold;
+}
+
+.tarjetas{
+    padding: 0px;
+    justify-content: center;
+}
+
+.tarjeta-boton{
+    width: 100%;
+}
+
+.img-producto{
+    width: auto;
+    height: 200px;
+}
+
+.tarjeta-container{
+    display: flex;
+    justify-content: center;
+}
+
+.tarjeta{
+    border-style: solid;
+    border-color: rgb(207, 207, 207);
+    border-radius: 12px;
+    border-width: 1px;
+    border-spacing: 0px;
+    margin-bottom: 10px;
+}
+
+.tarjeta__img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.tarjeta__titulo{
+    padding-top: 15px;
+    font-size: 1.5rem;
+    padding-left: 5px;
+}
+
+.tarjeta__precio{
+    font-size: 1.2rem;
+    padding-bottom: 10px;
+    font-weight: 400;
+    padding-left: 5px;
+}
+
+.tarjeta__boton{
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+    background-color: #000000;
+    border: none;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.row{
+    --bs-gutter-x: 0rem;
+}
+
+.tarjetass{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.titulo-index{
+    padding: 20px 0px 20px 0px;
+}
+
+.titulo-index-2{
+    padding: 40px 0px 20px 0px
+}
+
+@media only screen and (max-width: 600px) {
+    .tarjetass{
+        display: flex;
+        justify-content: center;
+    }
+
+    .filtros{
+        width: auto;
+        justify-content: center;
+    }
+  }
+
+  @media only screen and (min-width: 600px) {
+      
+    .productos{
+        display: grid;
+        grid-template-columns: 20% 80%;
+    }
+
+    .tarjetass-productos{
+        display: flex;
+        justify-content: space-between;
+        padding-left: 50px;
+    }
+  }
+
+.filtros{
+    width: 100%;
+    height: auto;
+    border-style: solid;
+    border-color: rgb(207, 207, 207);
+    border-radius: 20px;
+    list-style-type: none;
+    padding: 0px;
+}
+
+.filtro__categoria{
+    font-size: 1.3rem;
+    padding: 5px 0px 5px 15px;
+}
+
+.filtro__sub-categoria{
+    padding: 0px 0px 5px 25px;
+}
+
+.tarjetass-productos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
